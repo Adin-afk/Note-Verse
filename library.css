@@ -454,3 +454,61 @@ border-bottom:2px solid #555a59;
     color:#0d7C66;
 }
 
+@media (max-width: 995px) {
+    nav{
+        position: absolute;
+        display: none;
+        top:100%;
+        right:0%;
+        width:40%;
+        border-left:3px solid #0d7C66;
+        border-bottom: 3px solid #0d7C66;
+        border-bottom-left-radius:2rem ;
+        padding:1rem solid;
+        background-color: black;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+    }
+
+    nav.active{
+        display:block;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover,
+    nav a:active{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid #0d7C66;
+
+
+    }
+
+    #Home{
+        height: 1200px;
+        width: 1095px;
+        margin-right: 0;
+        padding-right: 0;
+        background-size: 1095px 1200px;
+    
+       
+    }
+
+    .home-content{
+        width:90%;
+    }
+
+    .home .home-content h1{
+        
+        width: 90%;
+        margin-top: 10px;
+      line-height: 55px;
+    }
+
+}
+
+
